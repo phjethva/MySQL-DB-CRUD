@@ -6,11 +6,11 @@ Here in this tutorial we try to do an example of To Do list. You can find the st
 
 | Id (AI) | TaskName |  TaskDateTime  |
 |:-:      |:-:       |:--:            |
-|    1    |  Task 1  | DD/MM/YYYY KK:MM:SS |
-|    2    |  Task 2  | DD/MM/YYYY KK:MM:SS |
-|    3    |  Task 3  | DD/MM/YYYY KK:MM:SS |
-|    4    |  Task 4  | DD/MM/YYYY KK:MM:SS |
-|    5    |  Task 5  | DD/MM/YYYY KK:MM:SS |
+|    1    |  Task 1  | dd/MM/yyyy kk:mm:ss |
+|    2    |  Task 2  | dd/MM/yyyy kk:mm:ss |
+|    3    |  Task 3  | dd/MM/yyyy kk:mm:ss |
+|    4    |  Task 4  | dd/MM/yyyy kk:mm:ss |
+|    5    |  Task 5  | dd/MM/yyyy kk:mm:ss |
 
 We will follow these steps to understand CRUD operations of MYSQL Database.
 
