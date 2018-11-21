@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">MySQL-DB-CRUD</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+
+</resources>

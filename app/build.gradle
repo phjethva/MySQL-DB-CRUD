@@ -1,0 +1,30 @@
+/**
+ * @author PJET APPS (Pratik Jethva)
+ * Check Out My Other Repositories On Github: https://github.com/phjethva
+ * Visit My Website: https://www.pjetapps.com
+ * Follow My Facebook Page: https://www.facebook.com/pjetapps
+ */
+apply plugin: 'com.android.application'
+android {
+    buildToolsVersion "28.0.3"
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.phjethva.mysql_db_crud"
+        minSdkVersion 14
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+}

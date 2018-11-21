@@ -1,0 +1,24 @@
+/**
+ * @author PJET APPS (Pratik Jethva)
+ * Check Out My Other Repositories On Github: https://github.com/phjethva
+ * Visit My Website: https://www.pjetapps.com
+ * Follow My Facebook Page: https://www.facebook.com/pjetapps
+ */
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+    }
+}
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
