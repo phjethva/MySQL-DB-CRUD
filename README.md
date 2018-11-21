@@ -32,7 +32,7 @@ Step 04 : UPDATE
 Step 05 : DELETE
 - Delete task.
 
-#Thanks for you Time & Consideration.
+# Thanks for you Time & Consideration.
 If you feel that this tutorial really helps you than give me a like by clicking above 🟊 STAR button.
 
 You can buy me a coffee for my work by clicking this link: [Buy Me a Coffee on PayPal](https://www.paypal.me/phjethva)
