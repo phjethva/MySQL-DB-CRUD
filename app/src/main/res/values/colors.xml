@@ -3,12 +3,20 @@
 
     <color name="colorPrimary">#000000</color>
     <color name="colorPrimaryDark">#000000</color>
-    <color name="colorAccent">#ffffff</color>
+    <color name="colorAccent">#000000</color>
 
     <color name="colorBackground">#f7f7f7</color>
 
     <color name="colorWhite">#ffffff</color>
+    <color name="colorWhite1">#96ffffff</color>
+    <color name="colorWhite2">#64ffffff</color>
+    <color name="colorWhite3">#32ffffff</color>
+    <color name="colorWhite4">#16ffffff</color>
     <color name="colorBlack">#000000</color>
+    <color name="colorBlack1">#96000000</color>
+    <color name="colorBlack2">#64000000</color>
+    <color name="colorBlack3">#32000000</color>
+    <color name="colorBlack4">#16000000</color>
     <color name="colorNull">#00000000</color>
 
 </resources>

@@ -5,11 +5,21 @@ package com.phjethva.mysql_db_crud.utils;
  * Visit My Website: https://www.pjetapps.com
  * Follow My Facebook Page: https://www.facebook.com/pjetapps
  */
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 
 public class Utils {
+
+    public static String getCurrentTime() {
+        Date date = Calendar.getInstance().getTime();
+        String outputPattern = "dd/MM/yyyy kk:mm:ss";
+        SimpleDateFormat outputFormat = new SimpleDateFormat(outputPattern);
+        String str = outputFormat.format(date);
+        return str;
+    }
 
     public static String formatDateTime(String strDateTime) {
         String inputPattern = "dd/MM/yyyy kk:mm:ss";

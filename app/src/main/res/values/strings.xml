@@ -3,5 +3,9 @@
     <string name="app_name">MySQL-DB-CRUD</string>
     <string name="update">Update</string>
     <string name="delete">Delete</string>
+    <string name="add_new_task">Add New Task</string>
+    <string name="add">Add</string>
+    <string name="close">Close</string>
+    <string name="info">Info</string>
 
 </resources>

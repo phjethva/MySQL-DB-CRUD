@@ -5,6 +5,7 @@ package com.phjethva.mysql_db_crud.models;
  * Visit My Website: https://www.pjetapps.com
  * Follow My Facebook Page: https://www.facebook.com/pjetapps
  */
+
 public class ModelTask {
 
     private int id;

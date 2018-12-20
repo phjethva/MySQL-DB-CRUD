@@ -6,4 +6,10 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="DialogFullScreen" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+        <item name="android:colorBackground">@color/colorWhite</item>
+    </style>
+
 </resources>

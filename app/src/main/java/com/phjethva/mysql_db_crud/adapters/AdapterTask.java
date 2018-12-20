@@ -5,6 +5,7 @@ package com.phjethva.mysql_db_crud.adapters;
  * Visit My Website: https://www.pjetapps.com
  * Follow My Facebook Page: https://www.facebook.com/pjetapps
  */
+
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,22 +15,23 @@ import android.widget.TextView;
 
 import com.phjethva.mysql_db_crud.R;
 import com.phjethva.mysql_db_crud.models.ModelTask;
+import com.phjethva.mysql_db_crud.utils.Utils;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class AdapterTask extends RecyclerView.Adapter<AdapterTask.TaskViewHolder> {
 
-    private List<ModelTask> tasks;
-
     public ItemClick click;
+    private List<ModelTask> tasks;
 
     public interface ItemClick {
         void callbackItemClick(ModelTask task, ImageButton imageButtonMenu);
     }
 
-    public AdapterTask(List<ModelTask> tasks, ItemClick click) {
-        this.tasks = tasks;
+    public AdapterTask(ItemClick click, List<ModelTask> tasks) {
         this.click = click;
+        this.tasks = tasks;
     }
 
     public class TaskViewHolder extends RecyclerView.ViewHolder {
@@ -60,8 +62,13 @@ public class AdapterTask extends RecyclerView.Adapter<AdapterTask.TaskViewHolder
     public void onBindViewHolder(TaskViewHolder holder, int position) {
         ModelTask task = tasks.get(position);
         holder.taskName.setText(task.getTaskName());
-        holder.taskDateTime.setText(task.getTaskDateTime());
+        holder.taskDateTime.setText(Utils.formatDateTime(task.getTaskDateTime()));
         holder.bind(task, click);
+    }
+
+    public void notifyData(List<ModelTask> tasks) {
+        this.tasks = tasks;
+        notifyDataSetChanged();
     }
 
     @Override
@@ -72,10 +79,12 @@ public class AdapterTask extends RecyclerView.Adapter<AdapterTask.TaskViewHolder
     class MenuButtonClick implements View.OnClickListener {
         ModelTask task;
         ImageButton imageButtonMenu;
+
         public MenuButtonClick(ModelTask task, ImageButton imageButtonMenu) {
             this.task = task;
             this.imageButtonMenu = imageButtonMenu;
         }
+
         @Override
         public void onClick(View v) {
             if (click != null) {
