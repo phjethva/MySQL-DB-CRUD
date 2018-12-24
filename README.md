@@ -20,8 +20,8 @@ We will follow these below steps to understand CRUD operations of MYSQL Database
       - This method will create database if not exist.
   2) onUpgrade()
       - This method will upgrade database as necessary.
-- First we will create database named "my_task_db".
-- Create a table under this database named "my_task_table".
+- First we will create database named **"my_task_db"**.
+- Create a table under this database named **"my_task_table"**.
 - We will manage three values in database:
   1) Id (Auto Increment)  : It is an unique id of Task created.
   2) TaskName             : It is a name of Task.
