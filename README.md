@@ -14,12 +14,12 @@ Here in this tutorial we try to do an example of To Do list. You can find the st
 
 We will follow these below steps to understand CRUD operations of MYSQL Database.
 
-Step 01:
+### Step 01:
 - Base class for MYSQL database in Android id "SQLiteOpenHelper". We will extends two method form this class:
   1) onCreate()
-    - This method will create database if not exist.
+      - This method will create database if not exist.
   2) onUpgrade()
-    - This method will upgrade database as necessary.
+      - This method will upgrade database as necessary.
 - First we will create database named "my_task_db".
 - Create a table under this database named "my_task_table".
 - We will manage three values in database:
@@ -32,25 +32,25 @@ Step 01:
 
 Now We will manage datbase query for different CRUD operation for this created table.
 
-Step 02 : CREATE
+### Step 02 : CREATE
 - Create new task.
 - We will create a method named "createTask()".
 - Use "ContentValues" class to insert multiple entries in database.
 - method "db.insert(...)" will insert entry in to created database.
 
-Step 03 : READ
+### Step 03 : READ
 - Read all task.
 - We will create three methods for different read related operation.
   1) "getTotalTaskCount()" : It will give count of total entries available in database.
   2) "readAllTask()"       : It will read all entries available by values in database.
   3) "readTaskByID()"      : It will read entry by given id if available in database.
 
-Step 04 : UPDATE
+### Step 04 : UPDATE
 - Update task.
 - We will create a method named "updateTask()".
 - method "db.update(...)" will updte enter of given id by necessary values in to database.
 
-Step 05 : DELETE
+### Step 05 : DELETE
 - Delete task.
 - We will create a method named "deleteTask()".
 - method "db.delete(...)" will delete entry of given id in to database.
