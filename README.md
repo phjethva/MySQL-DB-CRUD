@@ -5,7 +5,7 @@ It is an example for Android to store date in MySQL Database with basic CRUD ope
 Here in this tutorial we try to do an example of To Do list. You can find the structure of MYSQL Database in below table.
 
 | Id (AI) | TaskName |  TaskDateTime  |
-|:-:      |:-:       |:--:            |
+|:-:|:-:|:-:|
 |    1    |  Task 1  | dd/MM/yyyy kk:mm:ss |
 |    2    |  Task 2  | dd/MM/yyyy kk:mm:ss |
 |    3    |  Task 3  | dd/MM/yyyy kk:mm:ss |
