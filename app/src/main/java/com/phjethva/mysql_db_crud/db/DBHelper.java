@@ -21,9 +21,9 @@ import java.util.List;
 public class DBHelper extends SQLiteOpenHelper {
 
     private static final int DATABASE_VERSION = 1;
-    private static final String DATABASE_NAME = "db_task";
+    private static final String DATABASE_NAME = "my_task_db";
 
-    public static final String TABLE_NAME = "task_list";
+    public static final String TABLE_NAME = "my_task_table";
     public static final String COLUMN_ID = "id";
     public static final String COLUMN_NAME = "name";
     public static final String COLUMN_TIME = "time";
