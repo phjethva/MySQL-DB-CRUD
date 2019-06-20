@@ -11,7 +11,7 @@ android {
     defaultConfig {
         applicationId "com.phjethva.mysql_db_crud"
         minSdkVersion 14
-        targetSdkVersion 28
+        targetSdkVersion 27
         versionCode 1
         versionName "1.0"
         vectorDrawables.useSupportLibrary = true
