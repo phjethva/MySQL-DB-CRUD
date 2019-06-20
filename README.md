@@ -15,7 +15,7 @@ Here in this tutorial we try to do an example of To Do list. You can find the st
 We will follow these below steps to understand CRUD operations of MYSQL Database.
 
 ### Step 01:
-- Base class for MYSQL database in Android id "SQLiteOpenHelper". We will extends two method form this class:
+- Base class for MYSQL database in Android is "SQLiteOpenHelper". We will extends two method form this class:
   1) onCreate()
       - This method will create database if not exist.
   2) onUpgrade()
