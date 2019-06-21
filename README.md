@@ -2,7 +2,7 @@
 It is an example for Android to store date in MySQL Database with basic CRUD operation.
 
 # Example:
-Here in this tutorial we try to do an example of To Do list. You can find the structure of MYSQL Database in below table.
+Here in this tutorial we try to do an example of To Do list. You can find the structure of MySQL Database in below table.
 
 | Id (AI) | TaskName |  TaskDateTime  |
 |:-:|:-:|:-:|
@@ -12,10 +12,10 @@ Here in this tutorial we try to do an example of To Do list. You can find the st
 |    4    |  Task 4  | dd/MM/yyyy kk:mm:ss |
 |    5    |  Task 5  | dd/MM/yyyy kk:mm:ss |
 
-We will follow these below steps to understand CRUD operations of MYSQL Database.
+We will follow these below steps to understand CRUD operations of MySQL Database.
 
 ### Step 01:
-- Base class for MYSQL database in Android is "SQLiteOpenHelper". We will extends two method form this class:
+- Base class for MySQL database in Android is "SQLiteOpenHelper". We will extends two method form this class:
   1) onCreate()
       - This method will create database if not exist.
   2) onUpgrade()
@@ -58,7 +58,7 @@ Now We will manage datbase query for different CRUD operation for this created t
       **"db.delete(TABLE_NAME, null, null)"**
   It will delete all entries available in that table in to database.
 
-Read more about MYSQL database operations in Android here: [SQLiteOpenHelper](https://developer.android.com/reference/android/database/sqlite/SQLiteOpenHelper)
+Read more about MySQL database operations in Android here: [SQLiteOpenHelper](https://developer.android.com/reference/android/database/sqlite/SQLiteOpenHelper)
 
 # Thanks for you Time & Consideration.
 If you feel that this tutorial really helps you than give me a like by clicking above 🟊 STAR button.
