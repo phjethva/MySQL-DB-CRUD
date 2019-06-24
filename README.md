@@ -1,7 +1,7 @@
 # MySQL-DB-CRUD
 It is an example for Android to store date in MySQL Database with basic CRUD operation.
 
-<img src="https://github.com/phjethva/MySQL-DB-CRUD/blob/master/app/src/main/res/raw/images/MySQL-DB-CRUD_01.jpg" width="220"> <img src="https://github.com/phjethva/MySQL-DB-CRUD/blob/master/app/src/main/res/raw/images/MySQL-DB-CRUD_02.jpg" width="220"> <img src="https://github.com/phjethva/MySQL-DB-CRUD/blob/master/app/src/main/res/raw/images/MySQL-DB-CRUD_03.jpg" width="220"> <img src="https://github.com/phjethva/MySQL-DB-CRUD/blob/master/app/src/main/res/raw/images/MySQL-DB-CRUD_04.jpg" width="220">
+<img src="https://github.com/phjethva/MySQL-DB-CRUD/blob/master/app/src/main/res/raw/images/MySQL-DB-CRUD_01.jpg" width="210"> <img src="https://github.com/phjethva/MySQL-DB-CRUD/blob/master/app/src/main/res/raw/images/MySQL-DB-CRUD_02.jpg" width="210"> <img src="https://github.com/phjethva/MySQL-DB-CRUD/blob/master/app/src/main/res/raw/images/MySQL-DB-CRUD_03.jpg" width="210"> <img src="https://github.com/phjethva/MySQL-DB-CRUD/blob/master/app/src/main/res/raw/images/MySQL-DB-CRUD_04.jpg" width="210">
 
 # Example:
 Here in this tutorial we try to do an example of To Do list. You can find the structure of MySQL Database in below table.
