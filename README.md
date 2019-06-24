@@ -1,12 +1,10 @@
 # MySQL-DB-CRUD
 It is an example for Android to store date in MySQL Database with basic CRUD operation.
 
-<img src="/phjethva/MySQL-DB-CRUD/blob/master/app/src/main/res/raw/images/MySQL-DB-CRUD_01.jpg?raw=true" alt="MySQL-DB-CRUD_01.jpg" width="250" height="250" >
-
-![image](https://github.com/phjethva/MySQL-DB-CRUD/blob/master/app/src/main/res/raw/images/MySQL-DB-CRUD_01.jpg)
-![image](https://github.com/phjethva/MySQL-DB-CRUD/blob/master/app/src/main/res/raw/images/MySQL-DB-CRUD_02.jpg)
-![image](https://github.com/phjethva/MySQL-DB-CRUD/blob/master/app/src/main/res/raw/images/MySQL-DB-CRUD_03.jpg)
-![image](https://github.com/phjethva/MySQL-DB-CRUD/blob/master/app/src/main/res/raw/images/MySQL-DB-CRUD_04.jpg)
+<img src="https://github.com/phjethva/MySQL-DB-CRUD/blob/master/app/src/main/res/raw/images/MySQL-DB-CRUD_01.jpg" width="250">
+<img src="https://github.com/phjethva/MySQL-DB-CRUD/blob/master/app/src/main/res/raw/images/MySQL-DB-CRUD_02.jpg" width="250">
+<img src="https://github.com/phjethva/MySQL-DB-CRUD/blob/master/app/src/main/res/raw/images/MySQL-DB-CRUD_03.jpg" width="250">
+<img src="https://github.com/phjethva/MySQL-DB-CRUD/blob/master/app/src/main/res/raw/images/MySQL-DB-CRUD_04.jpg" width="250">
 
 # Example:
 Here in this tutorial we try to do an example of To Do list. You can find the structure of MySQL Database in below table.
