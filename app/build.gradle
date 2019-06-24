@@ -11,7 +11,7 @@ android {
     defaultConfig {
         applicationId "com.phjethva.mysql_db_crud"
         minSdkVersion 14
-        targetSdkVersion 27
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
         vectorDrawables.useSupportLibrary = true
@@ -24,7 +24,11 @@ android {
     }
 }
 dependencies {
+
+    def support_version = "28.0.0"
+
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'com.android.support:appcompat-v7:28.0.0'
-    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation "com.android.support:appcompat-v7:$support_version"
+    implementation "com.android.support:recyclerview-v7:$support_version"
+
 }
